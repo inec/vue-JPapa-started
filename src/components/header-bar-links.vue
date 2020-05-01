@@ -19,8 +19,9 @@
 export default {
   data() {
     return {
-      github: "https://github.com/johnpapa/vue-getting-started",
-      twitter: "https://twitter.com/john_papa"
+
+      github: "https://github.com/RRCBIT/vue-getting-started",
+      twitter: "https://twitter.com/atsumashu"
     };
   }
 };
