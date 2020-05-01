@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <HeaderBar/>
+    <div class="main-section columns">
+      <main class="column">
+        <Heroes/>
+      </main>
+    </div>
   </div>
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld";
+import HeaderBar from "@/components/header-bar";
+import Heroes from "@/components/heroes";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld
-  }
+  components: { HeaderBar, Heroes }
 };
 </script>
-
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
